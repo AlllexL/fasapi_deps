@@ -2,6 +2,7 @@ from sqlalchemy import MetaData
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import declared_attr
 
+
 from core.config import settings
 from utils import camel_case_to_snake_case
 
